@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.inetbanking.testcase.TC_LoginDDT_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LoginDDt"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.inetbanking.testcase.TC_LoginDDT_002 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
